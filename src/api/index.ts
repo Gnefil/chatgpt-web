@@ -3,7 +3,7 @@ import type { AxiosProgressEvent, GenericAbortSignal } from 'axios'
 import { post } from '@/utils/request'
 import { useAuthStore, useSettingStore } from '@/store'
 
-export const gpt4Enabled = ref<boolean>(false)
+export const gpt4Enabled = ref<boolean>(true)
 
 export function fetchChatAPI<T = any>(
   prompt: string,

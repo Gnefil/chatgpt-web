@@ -28,7 +28,8 @@ export default {
     unauthorizedTips: '未经授权，请先进行验证。',
     enable: '启用',
     disable: '禁用',
-    gpt4Enabled: '已为当前会话临时启用GPT-4。',
+    enabled: '启用成功',
+    disabled: '禁用成功',
     stopResponding: '停止响应',
   },
   chat: {

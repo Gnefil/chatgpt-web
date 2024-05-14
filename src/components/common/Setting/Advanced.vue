@@ -30,10 +30,11 @@ function handleReset() {
 function handleGPT4() {
   if (gpt4Enabled.value) {
     gpt4Enabled.value = false
+    ms.success(t('common.disabled'))
   }
   else {
     gpt4Enabled.value = true
-    ms.success(t('common.gpt4Enabled'))
+    ms.success(t('common.enabled'))
   }
 }
 </script>
